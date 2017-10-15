@@ -51,4 +51,18 @@ local t = CMOD_Cars_AUX
 		["TailLights"] = { Vector( 34.91, -108.27, 27.92 ), Vector( -34.91, -108.27, 27.92 ) },
 		["WheelHeightFix"] = 0,
 	}
-	
+	t["gaz2403ambgx"] = {
+		["Name"] = "GAZ-24-03 (СКОРАЯ)",
+		["Passengers"] = {
+			[1] = { ["x"] = 18, ["y"] = -12, ["z"] = 10},
+			[2] = { ["x"] = 18, ["y"] = 55, ["z"] = 13},
+		},
+		["DamageResist"] = 1,
+		["Headlights"] = {
+			[1] = Vector( 30.91, 108.27, 27.92 ),
+			[2] = Vector( -30.91, 108.27, 27.92 ),
+		},
+		["EnginePos"] = Vector( 0, 92.55, 39.43 ),
+		["TailLights"] = { Vector( 33.91, -112.27, 27.92 ), Vector( -33.91, -112.27, 27.92 ) },
+		["WheelHeightFix"] = 0,
+}
